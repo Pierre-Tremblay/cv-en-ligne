@@ -36,6 +36,8 @@ header h1 {
   font-size: 1.5em;
   width: 90%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
@@ -155,6 +157,10 @@ section > .allDiv1{
 /*SECTION COMPETENCES*/
 .h3gauche {
   width: 90%;
+}
+.allcomp{
+  display: flex;
+  justify-content: space-around;
 }
 .comp {
   display: flex;

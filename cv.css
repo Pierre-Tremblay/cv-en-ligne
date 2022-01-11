@@ -274,6 +274,14 @@ section > .allDiv1{
     flex: 0 0 85%;
     margin-left: auto;
   }
+  .exp-info ul{
+    padding-left: 22px;
+    font-size: 13px;
+  }
+  .exp-info ul :nth-last-child(-n+1) { 
+    font-weight: bold;
+  }
+  
   .interet {
     flex: 0 1 25%;
   }

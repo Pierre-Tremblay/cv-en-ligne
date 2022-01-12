@@ -29,7 +29,7 @@ footer {
 }
 header {
   border-bottom: 2px solid #fff;
-  height: 150px;
+  height: 180px;
 }
 header h1 {
   color: white;
@@ -38,6 +38,7 @@ header h1 {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 footer {
@@ -243,8 +244,11 @@ section > .allDiv1{
     width: 80%;
     box-shadow: 0px 0px 10px #bbb;
   }
-  a:hover {
+  .monCV:hover {
     color: #ea0;
+  }
+  .rythmeAlternance:hover {
+    color: #003350;
   }
   header h1 {
     width: 80%;
@@ -267,11 +271,19 @@ section > .allDiv1{
     border: 2px solid transparent;
   }
   .prez a:hover {
-    color: #f28835;
     background-color: #fff;
-    border: 2px solid #f28835;
     box-shadow: 0px 0px 20px #666;
   }
+  .prez .monCV:hover {
+    color: #ea0;
+    border: 2px solid #ea0;
+  }
+  .prez .rythmeAlternance:hover {
+    color: #003350;
+    border: 2px solid #003350;
+  }
+
+
   .exp-logo {
     flex: 0 0 10%;
   }
